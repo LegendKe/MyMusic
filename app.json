@@ -1,0 +1,43 @@
+{
+  "pages": [
+  "pages/newslist/newslist",
+    "pages/music/music",
+    
+    "pages/index/index",
+    "pages/music/songlist/songlist",
+    "pages/music/playsong/playsong"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#007af8",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的音乐",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "gray",
+    "selectedColor": "#007af8",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/newslist/newslist",
+        "text": "搞笑",
+        "iconPath": "icon/main_news_nor.png",
+        "selectedIconPath": "icon/main_news.png"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "text": "音乐",
+        "iconPath": "icon/main_music_nor.png",
+        "selectedIconPath": "icon/main_music.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "icon/main_mine_nor.png",
+        "selectedIconPath": "icon/main_mine.png"
+      }
+    ]
+  },
+  "debug": false
+}

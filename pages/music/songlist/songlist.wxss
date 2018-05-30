@@ -1,0 +1,40 @@
+/* pages/songlist/songlist.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #E0EEEE;  
+}  
+.songview{
+  background: #ffffff;
+  box-sizing: border-box;
+  border:3rpx solid #ffcccc;
+  height: 160rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+  border-radius: 12rpx;
+  flex-direction: row;
+  display: flex;
+}
+.avatar{
+  height: 120rpx;
+  width: 120rpx;
+  margin-top: 20rpx; 
+  margin-left: 20rpx;
+}
+.title{
+  font-size: 36rpx;
+  color: #333333;
+}
+.artist{
+   font-size: 30rpx;
+  color: #666666;
+  margin-top: 16rpx;
+}
+.play{
+  height: 60rpx;
+  width: 60rpx;
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 50rpx;
+}

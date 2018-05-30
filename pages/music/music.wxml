@@ -1,0 +1,8 @@
+<!-- for循环（集合/数组/字符串） for-item：元素;for-index：脚标 -->
+<view wx:for="{{channellist}}" wx:key="{{idx}}" wx:for-item="channel" wx:for-index="idx">
+<!-- bind/catch xx事件 如bindtap点击事件；data-xx:数据传递固定方式,此处传了参数chname-->
+  <view bindtap='itemClick' data-chname="{{channel.ch_name}}" class="flex-item">
+     <image  style="width: 100%; height: 200rpx; background-color: #cccccc;" src="{{channel.thumb}}"></image> 
+      <view style='text-align:center'>{{channel.name}}</view>
+  </view>
+</view>

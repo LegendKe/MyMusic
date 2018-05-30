@@ -1,0 +1,11 @@
+<!--pages/songlist/songlist.wxml-->
+
+  <view wx:for="{{result.songlist}}" wx:key="{{idx}}" wx:for-item="song" wx:for-index="idx" class='songview' bindtap='itemClick' data-songid="{{song.songid}}">
+    <image src="{{song.thumb}}" class='avatar'></image>
+    <view style='flex-direction:column;display:flex;margin-top:30rpx;margin-left:30rpx;width:100%'>
+      <text class='title'>{{song.title}}</text>
+      <text class='artist'>{{song.artist}}</text>
+    </view>
+    <image  class='play' src="../../icon/song_play.png"></image>
+  </view>
+

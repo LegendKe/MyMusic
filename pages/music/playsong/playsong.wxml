@@ -1,0 +1,11 @@
+<!--pages/playsong/playsong.wxml-->
+
+<button bindtap='playmusic' data-songlink="{{song.songLink}}">开始播放</button>
+<view style='flex-direction:column;display:flex'>
+  <text class='songname'>{{song.songName}}</text>
+  <text class='songartist'>{{song.artistName}}</text>
+</view>
+<image style='width:100%;height:400rpx' src="{{song.songPicRadio}}"></image>
+<button bindtap='play'>begin</button>
+<button bindtap='pause'>暂停</button>
+<button bindtap='stop'>停止</button>

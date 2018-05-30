@@ -1,0 +1,14 @@
+/* pages/playsong/playsong.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #E0EEEE;  
+}
+.songname{
+  font-size: 36rpx;
+  color: #333333;
+}
+.songartist{
+  font-size: 30rpx;
+  color: #333333;
+}

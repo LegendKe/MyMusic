@@ -1,0 +1,19 @@
+/* pages/listdemo/listdemo.wxss */
+.flex-wrp {
+  display: flex;
+  margin: 5rps;
+  padding: 10rps;
+  
+  }
+/*各类推荐*/
+.flex-item{
+  width: 335rpx;
+  border:3rpx solid #ffcccc;
+  float: left;
+  background: white;
+  display: block;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+  border-radius: 5rpx
+}

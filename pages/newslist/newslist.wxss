@@ -1,0 +1,30 @@
+/* pages/newslist/newslist.wxss */
+.item{
+  border:3rpx solid #ffcccc;
+  background: white;
+  display: block;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 40rpx;
+  border-radius: 5rpx;
+  padding: 20rpx;
+}
+.content{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: auto;
+}
+.image{
+  height: wrap_content;
+  width: wrap_content;
+  padding: 16rpx;
+  background: #ffcccc;
+}
+.flex-item{
+  width: 100%;
+  height: wrap_content;
+}
+.video{
+  width:100%;
+  height: wrap_content;
+}

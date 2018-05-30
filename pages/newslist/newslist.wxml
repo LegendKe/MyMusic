@@ -1,0 +1,3 @@
+<!--pages/newslist/newslist.wxml-->
+<text>test</text>
+<button bindtap='clickMe'>click me !</button>
