@@ -6,6 +6,6 @@
       <text class='title'>{{song.title}}</text>
       <text class='artist'>{{song.artist}}</text>
     </view>
-    <image  class='play' src="../../icon/song_play.png"></image>
+    <image  class='play' src="/icon/song_play.png"></image>
   </view>
 

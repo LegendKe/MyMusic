@@ -47,7 +47,7 @@ Page({
     var songid = event.currentTarget.dataset.songid;
     console.log("itemClick  songid:" + songid);
     wx.navigateTo({
-      url: '../music/playsong/playsong?songid=' + songid
+      url: '../playsong/playsong?songid=' + songid
     })
   }
 

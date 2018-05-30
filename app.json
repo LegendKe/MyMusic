@@ -1,8 +1,7 @@
 {
   "pages": [
-  "pages/newslist/newslist",
+  "pages/data/data",
     "pages/music/music",
-    
     "pages/index/index",
     "pages/music/songlist/songlist",
     "pages/music/playsong/playsong"
@@ -20,8 +19,8 @@
     "backgroundColor": "white",
     "list": [
       {
-        "pagePath": "pages/newslist/newslist",
-        "text": "搞笑",
+        "pagePath": "pages/data/data",
+        "text": "数据",
         "iconPath": "icon/main_news_nor.png",
         "selectedIconPath": "icon/main_news.png"
       },
